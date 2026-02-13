@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Based Workflow Configuration Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Workflow<span class="text-primary">Config</span></a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#login" class="btn btn-outline">Login</a>
+                <a href="#signup" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">New Release v2.0</span>
+                <h1>Design & Manage <br>Workflows <span class="text-gradient">Efficiently</span></h1>
+                <p>Streamline your business processes with our intuitive, drag-and-drop workflow configuration tool.
+                    Automate tasks, assign roles, and track progress in real-time.</p>
+                <div class="hero-btns">
+                    <a href="#" class="btn btn-primary btn-lg">Start Building Free <i
+                            class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="btn btn-secondary btn-lg"><i class="fas fa-play"></i> Watch Demo</a>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10k+</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Companies</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">99.9%</span>
+                        <span class="stat-label">Uptime</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="dashboard-preview">
+                    <div class="dashboard-header">
+                        <div class="dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="search-bar"></div>
+                    </div>
+                    <div class="dashboard-body">
+                        <div class="sidebar">
+                            <div class="sidebar-item active"></div>
+                            <div class="sidebar-item"></div>
+                            <div class="sidebar-item"></div>
+                            <div class="sidebar-item"></div>
+                        </div>
+                        <div class="main-content">
+                            <div class="widget-row">
+                                <div class="widget">
+                                    <div class="chart-line"></div>
+                                </div>
+                                <div class="widget">
+                                    <div class="chart-bar"></div>
+                                </div>
+                            </div>
+                            <div class="workflow-canvas">
+                                <div class="node start">Start</div>
+                                <div class="connector horizontal"></div>
+                                <div class="node process">Review</div>
+                                <div class="connector horizontal"></div>
+                                <div class="node decision">Approve?</div>
+                                <div class="connector vertical-down"></div>
+                                <div class="node end">End</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-card">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Task Completed</h4>
+                            <p>Marketing Workflow</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features for <span class="text-primary">Modern Teams</span></h2>
+                <p>Everything you need to configure, automate, and optimize your business workflows.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fas fa-vector-square"></i>
+                    </div>
+                    <h3>Drag-and-Drop Builder</h3>
+                    <p>Visually design complex workflows with our intuitive drag-and-drop interface. No coding required.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Role-Based Access</h3>
+                    <p>Secure specific parts of your workflow. Assign permissions and roles to team members
+                        effortlessly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Smart Automation</h3>
+                    <p>Set triggers and actions to automate repetitive tasks, saving time and reducing errors.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Real-Time Tracking</h3>
+                    <p>Monitor workflow status in real-time with comprehensive analytics working seamlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview Section -->
+    <section class="dashboard-section">
+        <div class="container">
+            <div class="dashboard-wrapper">
+                <div class="dashboard-text">
+                    <h2>Complete Visibility</h2>
+                    <p>Gain insights into your process bottlenecks and team performance with our advanced analytics
+                        dashboard.</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check"></i> Custom reports tailored to your needs</li>
+                        <li><i class="fas fa-check"></i> Live status updates on all active workflows</li>
+                        <li><i class="fas fa-check"></i> Export data in multiple formats (PDF, CSV)</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">View Analytics Demo</a>
+                </div>
+                <div class="dashboard-Showcase">
+                    <!-- Similar structure to hero dashboard but more detailed or static image placeholder -->
+                    <div class="analytics-card">
+                        <div class="card-header">
+                            <h4>Workflow Performance</h4>
+                            <select>
+                                <option>This Week</option>
+                            </select>
+                        </div>
+                        <div class="chart-bars">
+                            <div class="bar" style="height: 60%"></div>
+                            <div class="bar" style="height: 80%"></div>
+                            <div class="bar" style="height: 40%"></div>
+                            <div class="bar" style="height: 90%"></div>
+                            <div class="bar" style="height: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Optimize Your Workflow?</h2>
+            <p>Join thousands of teams who have streamlined their processes with our tool.</p>
+            <a href="#" class="btn btn-white btn-lg">Get Started Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Workflow<span class="text-primary">Config</span></a>
+                    <p>Empowering teams to build better processes.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Product</h4>
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Integrations</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <a href="#">Help Center</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Status</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WorkflowConfig Tool. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
